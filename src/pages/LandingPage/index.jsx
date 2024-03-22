@@ -847,7 +847,7 @@ export default function LandingPagePage() {
           </div>
         </div>
         <footer className="flex flex-col items-center justify-center w-full">
-          <div className="flex flex-row md:flex-col justify-evenly items-center w-[78%] mb-[377px] gap-[53px] py-[50px] md:py-5 bg-green-50 rounded-[5px]">
+          <div className="flex flex-row md:flex-col justify-evenly items-center w-[78%] mb-[100px] gap-[53px] py-[50px] md:py-5 bg-green-50 rounded-[5px]">
             <div className="flex flex-col items-start justify-start w-[46%] md:w-full">
               <Text as="p" className="!text-indigo-900_01">
                 NEWSLETTER
@@ -893,21 +893,21 @@ export default function LandingPagePage() {
               </Button>
             </div>
           </div>
-          <div className="flex flex-row justify-end w-full mt-[496px] ml-[-1275px] md:ml-0">
+          <div className="flex flex-row justify-center w-full mt-[5px] md:ml-0">
             <div className="flex flex-row justify-center w-full p-[33px] sm:p-5 bg-gray-600_01">
-              <div className="flex flex-col items-center justify-start w-[81%] mt-[30px] gap-[66px] mx-[132px] md:mx-5">
-                <div className="flex flex-row md:flex-col justify-between items-center w-full md:gap-10">
-                  <div className="flex flex-col items-start justify-start w-[15%] md:w-full gap-2">
+              <div className="flex flex-col items-center justify-center w-[81%] mt-[30px] gap-[66px] mx-[132px] md:mx-1">
+                <div className="flex flex-row md:flex-col justify-center items-center w-full md:gap-10">
+                  <div className="flex flex-col items-center justify-center w-[15%] md:w-full gap-2">
                     <div className="flex flex-row justify-start items-start gap-3.5">
                       <Img
                         src="images/img_dashicons_welcome_write_blog.svg"
                         alt="dashicons_one"
-                        className="h-[24px] w-[24px] mt-[3px]"
+                        className="h-[20px] w-[20px] mt-[3px] flex items-center justify-center"
                       />
                       <Heading
                         size="lg"
                         as="h4"
-                        className="!text-white-A700 !font-nunitosans uppercase text-center !font-extrabold"
+                        className="!text-white-A700 !font-nunitosans uppercase text-center !font-extrabold md:text-sm"
                       >
                         Blogsly
                       </Heading>
@@ -918,25 +918,26 @@ export default function LandingPagePage() {
                         alt="heart3one_one"
                         className="h-[20px] w-[20px]"
                       />
-                      <Text as="p" className="!text-white-A700 !font-medium">
+                      <Text as="p" className="!text-white-A700 !font-medium text-lg md:text-sm">
                         Build with heart
                       </Text>
                     </div>
                   </div>
-                  <div className="flex flex-row justify-between w-auto gap-[50px]">
-                    <Text as="p" className="!text-white-A700">
+
+                  <div className="flex flex-row justify-evenly items-center w-full gap-[30px] ">
+                    <Text as="p" className="!text-white-A700 text-xl md:text-sm">
                       Home
                     </Text>
-                    <Text as="p" className="!text-white-A700">
+                    <Text as="p" className="!text-white-A700 text-xl md:text-sm">
                       Podcast
                     </Text>
-                    <Text as="p" className="!text-white-A700">
+                    <Text as="p" className="!text-white-A700 text-xl md:text-sm">
                       Blog
                     </Text>
-                    <Text as="p" className="!text-white-A700">
+                    <Text as="p" className="!text-white-A700 text-xl md:text-sm">
                       About
                     </Text>
-                    <Text as="p" className="!text-white-A700">
+                    <Text as="p" className="!text-white-A700 text-xl md:text-sm">
                       Contact
                     </Text>
                   </div>
